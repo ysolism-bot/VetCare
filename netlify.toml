@@ -1,5 +1,5 @@
 [build]
-  command = "npx tanstack-start build"
+  command = "chmod +x ./node_modules/.bin/vite && ./node_modules/.bin/vite build"
   publish = "dist/client"
 
 [dev]
